@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { FaInstagram, FaTiktok, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaGithub, FaLinkedin } from "react-icons/fa"; 
 import './App.css';
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
     instagram: theme === "light" ? "#E4405F" : "white",
     tiktok: theme === "light" ? "black" : "white",
     github: theme === "light" ? "#333" : "white",
+    linkedin: theme === "light" ? "#0077B5" : "white", // LinkedIn blue in light mode
   };
 
   return (
@@ -60,6 +61,15 @@ function App() {
           style={{ margin: "0 15px", color: iconColors.github }}
         >
           <FaGithub />
+        </a>
+
+        <a 
+          href="https://www.linkedin.com/in/ismail-faruqi-faisol/s" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          style={{ margin: "0 15px", color: iconColors.linkedin }}
+        >
+          <FaLinkedin />
         </a>
       </div>
     </div>

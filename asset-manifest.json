@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/faruqi02/ismailfaruqifaisol-my/static/css/main.b0f13cd5.css",
+    "main.js": "/faruqi02/ismailfaruqifaisol-my/static/js/main.f086d4d2.js",
+    "static/js/453.670e15c7.chunk.js": "/faruqi02/ismailfaruqifaisol-my/static/js/453.670e15c7.chunk.js",
+    "index.html": "/faruqi02/ismailfaruqifaisol-my/index.html",
+    "main.b0f13cd5.css.map": "/faruqi02/ismailfaruqifaisol-my/static/css/main.b0f13cd5.css.map",
+    "main.f086d4d2.js.map": "/faruqi02/ismailfaruqifaisol-my/static/js/main.f086d4d2.js.map",
+    "453.670e15c7.chunk.js.map": "/faruqi02/ismailfaruqifaisol-my/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0f13cd5.css",
+    "static/js/main.f086d4d2.js"
+  ]
+}

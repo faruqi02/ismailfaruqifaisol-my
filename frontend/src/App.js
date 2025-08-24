@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="text-center mt-5">
-      <h1 className="mb-3">Hello, My Name is Ismail Faruqi</h1>
+      <h1 className="mb-3">Hello, I'm Ismail Faruqi</h1>
       <p className="mb-4">click below to connect with me </p>
 
       {/* Toggle Button */}

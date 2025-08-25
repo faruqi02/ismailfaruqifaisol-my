@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* ---------- Base Colors ---------- */
+.social-icon {
+  margin: 0 15px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.social-icon:hover {
+  transform: scale(1.2); /* enlarge slightly */
+}
+
+/* ---------- Base Theme Colors ---------- */
+.social-icon.light { color: black; }
+.social-icon.dark { color: white; }
+
+/* ---------- Hover Brand Colors ---------- */
+.social-icon.instagram:hover { color: #E4405F; }
+.social-icon.tiktok:hover { color: cyan; }
+.social-icon.github:hover { color: #333; }
+.social-icon.linkedin:hover { color: #0077B5; }
+

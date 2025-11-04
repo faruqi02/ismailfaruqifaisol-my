@@ -6,7 +6,7 @@ function Contact({ theme }) {
 
       <ul className="list-unstyled">
         <li>
-          📧 Email: <a href="mailto:ismailfaruqifaisol@gmail.com">ismailfaruqifaisol@gmail.com</a>
+          📧 Email: <a href="mailto:ismailfaruqif@gmail.com">ismailfaruqif@gmail.com</a>
         </li>
         <li>
           💼 LinkedIn:{" "}

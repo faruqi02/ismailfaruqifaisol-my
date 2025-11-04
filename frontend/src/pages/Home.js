@@ -1,5 +1,11 @@
 import { ReactTyped } from "react-typed";
-import { FaInstagram, FaTiktok, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaTiktok,
+  FaGithub,
+  FaLinkedin,
+  FaWhatsapp,
+} from "react-icons/fa";
 import profilePic from "../assets/profile.jpg";
 
 function Home({ theme }) {
@@ -16,7 +22,9 @@ function Home({ theme }) {
       </h1>
       <p className="mb-4">Let's connect with me!</p>
 
-      <div style={{ marginTop: "30px", marginBottom: "30px", fontSize: "2rem" }}>
+      <div
+        style={{ marginTop: "30px", marginBottom: "30px", fontSize: "2rem" }}
+      >
         <a
           href="https://www.instagram.com/ismailfaruqi._/"
           target="_blank"
@@ -48,6 +56,15 @@ function Home({ theme }) {
           className={`social-icon linkedin ${theme}`}
         >
           <FaLinkedin />
+        </a>
+        {/* 🟢 WhatsApp link added */}
+        <a
+          href="https://wa.me/60175964958?text=Hi%20Im%20from%20your%20website!%20My%20name%20is%20"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`social-icon whatsapp ${theme}`}
+        >
+          <FaWhatsapp />
         </a>
       </div>
 

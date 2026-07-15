@@ -33,7 +33,7 @@ function Contact({ theme }) {
     {
       icon: <FiPhone className="contact-icon" />,
       title: "WhatsApp",
-      value: "+60 175 964 958",
+      value: "(+60)17 596 4958",
       link: "https://wa.me/60175964958",
       action: "Message on WhatsApp",
     },
@@ -71,7 +71,7 @@ function Contact({ theme }) {
   email: "ismailfaruqif@gmail.com",
   linkedIn: "ismail-faruqi-faisol",
   github: "faruqi02",
-  whatsapp: "+60 175 964 958"
+  whatsapp: "(+60)17 596 4958"
 };`}
             </pre>
 

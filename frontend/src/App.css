@@ -164,6 +164,30 @@
   .contact-grid {
     grid-template-columns: 1fr;
   }
+
+  .contact-panel {
+    padding: 1.5rem;
+  }
+
+  .contact-code {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  .contact-card {
+    padding: 1.25rem;
+  }
+
+  .contact-title h5 {
+    font-size: 1.05rem;
+  }
+
+  .contact-card p,
+  .contact-card .contact-link {
+    font-size: 0.94rem;
+  }
 }
 
 .contact-title {
